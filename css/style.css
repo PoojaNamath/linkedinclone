@@ -1,0 +1,191 @@
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+b,
+i,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.login-container {
+    width: 75%;
+    margin: auto;
+}
+
+.login-container .logo {
+    width: 50%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.login-container .logo .logo-image {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}
+
+.login-heading .login-main--heading {
+    font-size: 1.4rem;
+    line-height: 1.33333;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.9);
+    padding: 0 0 4px 0;
+    text-align: center;
+}
+
+.login-heading .login-sub--heading {
+    font-size: 1.2rem;
+    line-height: 1.75;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 0 0 32px 0;
+    text-align: center;
+}
+
+.error {
+    font-size: 14px;
+    color: #d11124;
+}
+
+.error+.form__label--floating {
+    color: #d11124;
+}
+
+.login_formfield.formfield-username.form-error input,
+.login_formfield.formfield-password.form-error input {
+    border: 1px solid #d11124;
+    color: #d11124;
+}
+
+.login-form {
+    width: 35%;
+    margin: auto;
+}
+
+.login-form .login_formfield {
+    position: relative;
+}
+
+.login-form .form__label--floating {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    transition: 0.2s;
+    font-size: 18px;
+}
+
+.login-form .form__label--floating.form-label_after {
+    top: 5px;
+    left: 15px;
+    font-size: 14px;
+}
+
+.login-form .submit-button {
+    margin-top: 20px;
+}
+
+.login-form .submit-button button {
+    width: 100%;
+    padding: 22px 0;
+    background: #0073b1;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.login-form .formfield-username input,
+.login-form .formfield-password input {
+    width: 94%;
+    display: block;
+    padding: 20px 10px;
+    border: 1px solid black;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.formfield-password .show-hide {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #0073b1;
+    font-weight: 600;
+}
+
+.forgot-password {
+    text-align: center;
+    margin: 24px 0 0 0;
+    color: #0073b1;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #0073b1;
+}
+
+.join-now {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.join-now .join-now--link {
+    color: #0073b1;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.footer {
+    border-top: 1px solid grey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: white;
+}
+
+.footer .footer-items {
+    width: 57%;
+    margin: 32px auto;
+}
+
+.footer .footer-items .footer-items_list {
+    display: inline;
+    padding: 21px;
+    font-size: 12px;
+    font-weight: 400;
+}
