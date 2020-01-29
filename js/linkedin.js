@@ -19,7 +19,7 @@ $(document).ready(function() {
         $('.error').remove();
         $('.login_formfield').removeClass('form-error');
 
-        //Checks if the field is empty
+        //Check if the field is empty
         if (email.length < 1) {
             $('#user_name').after('<span class="error">Please enter an email address</span>');
             $('.formfield-username').addClass('form-error');
@@ -32,7 +32,7 @@ $(document).ready(function() {
                 $('.formfield-username').addClass('form-error');
             }
         }
-        // Checks if the field is empty
+        // Check if the field is empty
         if (password.length < 1) {
             $('#pwd').after('<span class="error">Please enter a password</span>');
             $('.formfield-password').addClass('form-error');
